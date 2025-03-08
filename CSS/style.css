@@ -84,6 +84,7 @@ body{
     width: 10vw;
     height: 28vh;
     overflow: hidden;
+    position: relative;
     
 }
 
@@ -91,9 +92,7 @@ body{
     width: 100%;
     object-fit: contain;
 }
-.cards p{
-    font-size: 13px;
-}
+  
 .cardsRow{
     display: flex;
     gap: 10px;
@@ -103,4 +102,10 @@ body{
 }
 .cards p{
     margin-top: 4px;
+    font-size: 13px;
+}
+.play{
+    position: absolute;
+    top:58%;
+    right: 12%;
 }
