@@ -94,4 +94,13 @@ body{
 .cards p{
     font-size: 13px;
 }
-
+.cardsRow{
+    display: flex;
+    gap: 10px;
+}
+.cards h3{
+    margin-top: 7px;
+}
+.cards p{
+    margin-top: 4px;
+}
