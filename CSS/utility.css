@@ -39,3 +39,10 @@
 .font{
     font-family: "Roboto","sans-serif"; 
 }
+.m2{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.transparent{
+    background: transparent;
+}
