@@ -46,3 +46,31 @@
 .transparent{
     background: transparent;
 }
+
+/* Style for the scrollbar */
+::-webkit-scrollbar {
+    width: 8px; /* Adjust width of the vertical scrollbar */
+}
+
+/* Style for the horizontal scrollbar */
+::-webkit-scrollbar:horizontal {
+    height: 3px; /* Adjust the height of the horizontal scrollbar */
+}
+
+/* Style for the scrollbar track (background) */
+::-webkit-scrollbar-track {
+    background-color: #161616; /* Dark background for the track */
+    border-radius: 10px;
+}
+
+/* Style for the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Dark gray color for the thumb */
+    border-radius: 10px;
+    border: 2px ; /* Optional: adding border to thumb */
+}
+
+/* Hover effect on the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* Lighter color on hover */
+}
